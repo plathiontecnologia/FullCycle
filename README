@@ -1,0 +1,69 @@
+FullCycle Go
+
+Projeto em Go para o curso Full Cycle.
+
+Instalação
+1. Clone o repositório:
+
+   git clone https://github.com/username/my-go-project.git
+   cd my-go-project
+   
+
+2. Instale as dependências:
+
+   go mod download
+   
+
+## Uso
+
+### Executar a Aplicação
+
+Para executar a aplicação, use o seguinte comando:
+
+```sh
+go run cmd/myapp/main.go
+```
+
+### Compilar a Aplicação
+
+Para compilar a aplicação e gerar um executável, use o seguinte comando:
+
+```sh
+go build -o myapp cmd/myapp/main.go
+```
+
+### Executar Docker
+
+Para construir e executar a imagem Docker:
+
+1. Construa a imagem Docker:
+
+   ```sh
+   docker build -t my-go-app .
+   ```
+
+2. Execute o container Docker:
+
+   ```sh
+   docker run -p 8080:8080 my-go-app
+   ```
+
+## Testes
+
+Para executar os testes, use o seguinte comando:
+
+```sh
+go test ./...
+```
+
+## Contribuição
+
+1. Faça um fork do projeto
+2. Crie uma nova branch (`git checkout -b feature/nova-feature`)
+3. Commit suas mudanças (`git commit -am 'Adiciona nova feature'`)
+4. Faça o push para a branch (`git push origin feature/nova-feature`)
+5. Crie um novo Pull Request
+
+## Licença
+
+Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
