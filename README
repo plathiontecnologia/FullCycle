@@ -3,19 +3,23 @@ FullCycle-Go
 Projeto em Go para o curso Full Cycle.
 
 Instalação
+
 1. Clone o repositório:
    git clone https://github.com/plathiontecnologia/FullCycle-Go.git
    cd FullCycle-Go
 
 Uso
+
 1. Para executar a aplicação, use o seguinte comando:
    go run main.go
 
 Compilar a Aplicação
+
 1. Para compilar a aplicação e gerar um executável, use o seguinte comando:
    go build -o main main.go
 
 Executar Docker
+
 1. Construa a imagem Docker:
    docker build -t plathiontecnologia/fullcycle-go .
 
@@ -23,6 +27,7 @@ Executar Docker
    docker run -p 8080:8080 plathiontecnologia/fullcycle-go
 
 Imagem Docker Hub
+
 1. Caminho
    https://hub.docker.com/repository/docker/plathiontecnologia/fullcycle-go/general
 
